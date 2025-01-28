@@ -1,0 +1,116 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+body{
+  background-color: #0a0909;
+}
+.container{
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+ 
+}
+
+.title{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.search{
+  padding: 10px;
+  width: 80%;
+  max-width:400px;
+  margin: 20px auto;
+  display:block;
+  border-radius: 5px;
+  border:1px solid #ffffff;
+}
+
+.table-container{
+margin: 20px 0;
+overflow-x: auto;
+border-radius: 6px;
+}
+
+.coin-table{
+  background-color: white;
+  border-collapse: collapse;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  width:100%;
+
+}
+
+.coin-table th, .coin-table td{
+  color: black;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.coin-table th{
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.coin-row:hover{
+  background-color: #f8f9fa;
+}
+
+.coin-image{
+  width: 40px;
+  height:40px;
+  vertical-align: middle;
+}
+
+.coin-name{
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.coin-symbol{
+  color: #666;
+  font-size: 0.9em;
+}
+
+.positive{
+  color:#28a745;
+}
+
+.positive{
+  color:#dc3545;
+}
+
+.watchlist-button{
+  padding: 6px 12px;
+}
+
+.watchlist-button:hover{
+  background-color: #3b3939;
+}
+
+.login-register-button{
+  display: block;
+  margin: 20px auto;
+  
+}
+
+@media (max-width:768px){
+  .coin-table{
+    font-size:0.9rem;
+  }
+
+  .watchlist-button{
+    padding:4px 8px;
+    font-size: 0.8rem;
+  }
+}

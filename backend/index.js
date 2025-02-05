@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 
-mongoose.connect("mongodb://localhost:27017/crypto-tracker", {useNewUrlParser: true, useUnifiedTopology: true} )
+mongoose.connect("mongodb://localhost:27017/crypto-tracker", )
 .then(()=>console.log("MongoDB connected"))
 .catch((err)=> console.log("Error connecting to MongoDB"));
 
